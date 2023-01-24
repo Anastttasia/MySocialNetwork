@@ -1,0 +1,20 @@
+.content {
+    grid-area: third;
+    background-color: #B1CFE1;
+  }
+
+.imgContent {
+    max-width: 1000px;
+    max-height: 200px;
+  }
+
+.avatarFoto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+.item {
+    color: green;
+}
+

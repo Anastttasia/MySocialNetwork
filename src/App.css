@@ -1,0 +1,16 @@
+.appWrapper {
+  display: grid;
+  max-width: 100%;
+  grid-template-areas: 
+    "first first"
+    "second third";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+
+}
+
+.appWrapperContent {
+  grid-area: third;
+  background-color: #B1CFE1;
+}
