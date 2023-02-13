@@ -1,3 +1,7 @@
+.postContainer {
+  padding: 20px;
+}
+
 .content {
     grid-area: third;
     background-color: #B1CFE1;
@@ -12,6 +16,10 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
+  }
+
+  .posts {
+    margin-top: 10px;
   }
 
 
